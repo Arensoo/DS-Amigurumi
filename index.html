@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>DS Amigurumi</title>
+
+
+    <!-- ==================================================
+         FOLHA DE ESTILO
+         ================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+
+    <!-- ==================================================
+         FONT AWESOME
+         ================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+
+
+    <!-- ==================================================
+         GOOGLE FONTS
+         ================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         HEADER
+         ================================================== -->
+
+    <header>
+
+
+        <!-- ==================================================
+             MARCA / LOGO
+             ================================================== -->
+
+        <div class="marca">
+
+            <img
+                src="imagens/logoDS.png"
+                alt="Logotipo DS Amigurumi"
+            >
+
+            <div class="textos-marca">
+
+                <h1>
+                    DS Amigurumi
+                </h1>
+
+                <p>
+                    Pequenos personagens feitos à mão ♥
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             MENU DE NAVEGAÇÃO
+             ================================================== -->
+
+        <nav class="menu">
+
+            <a
+                href="#inicio"
+                class="ativo"
+            >
+                Início
+            </a>
+
+            <a href="#amigurumis">
+                Amigurumis
+            </a>
+
+            <a href="#encomendas">
+                Encomendas
+            </a>
+
+            <a href="#contato">
+                Contato
+            </a>
+
+            <a href="#sobre">
+                Sobre
+            </a>
+
+        </nav>
+
+
+        <!-- ==================================================
+             REDES SOCIAIS
+             ================================================== -->
+
+        <div class="redes-sociais">
+
+
+            <!-- Instagram -->
+
+            <a
+                href="https://www.instagram.com/ds.amigu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram da DS Amigurumi"
+            >
+
+                <i class="fa-brands fa-instagram"></i>
+
+            </a>
+
+
+            <!-- WhatsApp -->
+
+            <a
+                href="https://wa.me/5551994631522"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp da DS Amigurumi"
+            >
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+            </a>
+
+        </div>
+
+
+    </header>
+
+
+    <!-- ==================================================
+         CONTEÚDO PRINCIPAL
+         ================================================== -->
+
+    <main>
+
+
+        <!-- ==================================================
+             HERO / BANNER PRINCIPAL
+             ================================================== -->
+
+        <section
+            class="banner"
+            id="inicio"
+        >
+
+            <div class="banner-textos">
+
+
+                <!-- Título -->
+
+                <h2>
+                    Feito à mão,<br>
+                    do jeitinho que<br>
+                    você imaginar ♥
+                </h2>
+
+
+                <!-- Descrição -->
+
+                <p>
+                    Amigurumis artesanais feitos com carinho
+                    e personalizados do seu jeito
+                </p>
+
+
+                <!-- ==================================================
+                     BOTÕES DO HERO
+                     ================================================== -->
+
+                <div class="banner-botoes">
+
+
+                    <!-- Ver Amigurumis -->
+
+                    <a
+                        href="#amigurumis"
+                        class="btn-primario"
+                    >
+
+                        <i class="fa-solid fa-bag-shopping"></i>
+
+                        Ver Amigurumis
+
+                    </a>
+
+
+                    <!-- Fazer Encomenda -->
+
+                    <button
+                        type="button"
+                        class="btn-secundario"
+                        id="btn-encomenda-hero"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        Fazer Encomenda
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             SEÇÃO DE AMIGURUMIS
+             ================================================== -->
+
+        <section
+            class="amigurumis"
+            id="amigurumis"
+        >
+
+
+            <!-- ==================================================
+                 TÍTULO DA SEÇÃO
+                 ================================================== -->
+
+            <div class="titulo-secao">
+
+                <h2>
+                    Algumas das nossas criações
+                </h2>
+
+                <p>
+                    Cada peça é feita à mão com muito carinho ♥
+                </p>
+
+            </div>
+
+
+            <!-- ==================================================
+                 LISTA DE PRODUTOS
+                 O JavaScript insere os cards aqui.
+                 ================================================== -->
+
+            <div
+                class="lista-produtos"
+                id="lista-produtos"
+            >
+            </div>
+
+
+            <!-- ==================================================
+                 BOTÃO PARA VER TODOS
+                 ================================================== -->
+
+            <div class="botao-todos">
+
+                <a href="#amigurumis">
+                    Ver todos os amigurumis
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             SEÇÃO DE ENCOMENDAS PERSONALIZADAS
+             ================================================== -->
+
+        <section
+            class="encomendas"
+            id="encomendas"
+        >
+
+            <div class="encomendas-conteudo">
+
+
+                <!-- ==================================================
+                     TEXTOS
+                     ================================================== -->
+
+                <div class="encomendas-texto">
+
+                    <h2>
+                        Encomendas Personalizadas
+                    </h2>
+
+                    <p>
+                        Imaginou? A gente faz!
+                    </p>
+
+                    <p>
+                        Quer um personagem, bichinho ou objeto específico?
+                        Conte pra gente como você imaginou e criamos uma
+                        peça feita especialmente para você.
+                    </p>
+
+
+                    <!-- Botão -->
+
+                    <a
+                        href="#"
+                        class="btn-encomenda"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        Fazer uma encomenda
+
+                    </a>
+
+                </div>
+
+
+                <!-- ==================================================
+                     IMAGEM DA ENCOMENDA
+                     ================================================== -->
+
+                <div class="encomendas-imagem">
+
+                    <img
+                        src="imagens/dobby.jpg"
+                        alt="Amigurumi Dobby"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             SEÇÃO DO INSTAGRAM
+             ================================================== -->
+
+        <section
+            class="instagram"
+            id="instagram"
+        >
+
+
+            <!-- ==================================================
+                 CABEÇALHO
+                 ================================================== -->
+
+            <div class="instagram-topo">
+
+                <div class="instagram-texto">
+
+                    <div class="instagram-titulo">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                        <h2>
+                            Acompanhe nosso trabalho pelo Instagram
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Veja mais criações, bastidores e novidades!
+                    </p>
+
+                </div>
+
+
+                <!-- Botão Instagram -->
+
+                <a
+                    href="https://www.instagram.com/ds.amigu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-instagram"
+                >
+
+                    Seguir @ds.amigu
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- ==================================================
+                 GALERIA
+                 ================================================== -->
+
+            <div class="instagram-galeria">
+
+
+                <!-- Foto 1 -->
+
+                <a
+                    href="https://www.instagram.com/ds.amigu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="instagram-foto"
+                >
+
+                    <img
+                        src="imagens/dobby.jpg"
+                        alt="Amigurumi Dobby"
+                    >
+
+                </a>
+
+
+                <!-- Foto 2 -->
+
+                <a
+                    href="https://www.instagram.com/ds.amigu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="instagram-foto"
+                >
+
+                    <img
+                        src="imagens/banguelaeabranquela.jpg"
+                        alt="Amigurumis Banguela e Abranquela"
+                    >
+
+                </a>
+
+
+                <!-- Foto 3 -->
+
+                <a
+                    href="https://www.instagram.com/ds.amigu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="instagram-foto"
+                >
+
+                    <img
+                        src="imagens/frutaluffy.jpg"
+                        alt="Amigurumi Fruta Luffy"
+                    >
+
+                </a>
+
+
+                <!-- Foto 4
+                     Temporariamente usando o Dobby -->
+
+                <a
+                    href="https://www.instagram.com/ds.amigu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="instagram-foto"
+                >
+
+                    <img
+                        src="imagens/dobby.jpg"
+                        alt="Amigurumi Dobby"
+                    >
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             SEÇÃO DE CONTATO
+             ================================================== -->
+
+        <section
+            class="contato"
+            id="contato"
+        >
+
+            <div class="contato-conteudo">
+
+
+                <!-- ==================================================
+                     TEXTO
+                     ================================================== -->
+
+                <div class="contato-texto">
+
+                    <h2>
+                        Entre em contato 💌
+                    </h2>
+
+                    <p>
+                        Tem alguma dúvida ou quer fazer uma encomenda?
+                        Fale com a gente!
+                    </p>
+
+                </div>
+
+
+                <!-- ==================================================
+                     BOTÕES
+                     ================================================== -->
+
+                <div class="contato-botoes">
+
+
+                    <!-- WhatsApp -->
+
+                    <a
+                        href="#"
+                        class="btn-contato btn-whatsapp"
+                        id="btn-whatsapp"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        WhatsApp
+
+                    </a>
+
+
+                    <!-- Instagram -->
+
+                    <a
+                        href="https://www.instagram.com/ds.amigu/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-contato btn-instagram"
+                    >
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                        Instagram
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             SEÇÃO SOBRE
+             ================================================== -->
+
+        <section
+            class="sobre"
+            id="sobre"
+        >
+
+            <div class="sobre-conteudo">
+
+
+                <!-- ==================================================
+                     TEXTO
+                     ================================================== -->
+
+                <div class="sobre-texto">
+
+                    <span class="sobre-destaque">
+                        Feito com carinho ♥
+                    </span>
+
+                    <h2>
+                        Sobre a DS Amigurumi
+                    </h2>
+
+                    <p>
+                        A DS Amigurumi nasceu de um hobby que traz muita alegria.
+                        Fazer amigurumis é uma forma de se divertir, relaxar e
+                        transformar ideias em pequenos personagens feitos à mão.
+                    </p>
+
+                    <p>
+                        Além dos amigurumis, também criamos caminhas para pets,
+                        porque o amor pelos animais está presente em tudo que fazemos.
+                    </p>
+
+                    <p>
+                        Entre uma série e outra, surgem novos personagens, bichinhos
+                        e ideias. E cada encomenda tem um significado especial,
+                        porque ver alguém escolher uma peça feita à mão é motivo
+                        de muita felicidade.
+                    </p>
+
+                </div>
+
+
+                <!-- ==================================================
+                     DESTAQUE VISUAL
+                     ================================================== -->
+
+                <div class="sobre-destaque-caixa">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                    <h3>
+                        Um hobby feito à mão
+                    </h3>
+
+                    <p>
+                        Amigurumis, caminhas para pets e muito carinho em cada peça.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ==================================================
+         FOOTER
+         ================================================== -->
+
+    <footer class="footer">
+
+
+        <!-- ==================================================
+             CONTEÚDO PRINCIPAL DO FOOTER
+             ================================================== -->
+
+        <div class="footer-conteudo">
+
+
+            <!-- ==================================================
+                 MARCA
+                 ================================================== -->
+
+            <div class="footer-marca">
+
+                <div class="footer-logo">
+
+                    <img
+                        src="imagens/logoDS.png"
+                        alt="Logotipo DS Amigurumi"
+                    >
+
+                    <div class="footer-textos">
+
+                        <h2>
+                            DS Amigurumi
+                        </h2>
+
+                        <p>
+                            Pequenos personagens feitos à mão ♥
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <p class="footer-frase">
+                    Feito à mão, com carinho e muita criatividade.
+                </p>
+
+            </div>
+
+
+            <!-- ==================================================
+                 LINKS RÁPIDOS
+                 ================================================== -->
+
+            <div class="footer-links">
+
+                <h3>
+                    Navegação
+                </h3>
+
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#amigurumis">
+                    Amigurumis
+                </a>
+
+                <a href="#encomendas">
+                    Encomendas
+                </a>
+
+                <a href="#contato">
+                    Contato
+                </a>
+
+                <a href="#sobre">
+                    Sobre
+                </a>
+
+            </div>
+
+
+            <!-- ==================================================
+                 REDES SOCIAIS
+                 ================================================== -->
+
+            <div class="footer-redes">
+
+                <h3>
+                    Fale com a gente
+                </h3>
+
+                <div class="footer-botoes">
+
+
+                    <!-- Instagram -->
+
+                    <a
+                        href="https://www.instagram.com/ds.amigu/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram da DS Amigurumi"
+                    >
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+
+                    <!-- WhatsApp -->
+
+                    <a
+                        href="https://wa.me/5551994631522"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="WhatsApp da DS Amigurumi"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             COPYRIGHT
+             ================================================== -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="ano-atual"></span>
+                DS Amigurumi. Todos os direitos reservados.
+            </p>
+
+        </div>
+
+
+    </footer>
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+         ================================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
